@@ -42,7 +42,7 @@ jobs:
     with:
       cura_conan_version: ${{ inputs.cura_conan_version }}
       package_overrides: ${{ inputs.package_overrides }}
-      conan_args: "-s python.version=3.12 ${{ inputs.conan_args }}"  # 添加 Python 版本参数
+      conan_args: "-s python.version=3.12 ${{ inputs.conan_args }}"
       enterprise: ${{ inputs.enterprise }}
       staging: ${{ inputs.staging }}
       operating_system: ${{ inputs.operating_system }}
